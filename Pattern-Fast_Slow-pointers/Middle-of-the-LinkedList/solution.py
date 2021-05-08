@@ -19,3 +19,8 @@ head.next.next.next = Node(4)
 head.next.next.next.next = Node(5)
 
 print(find_middle_of_linked_list(head).data)
+
+head.next.next.next.next.next = Node(6)
+
+print(find_middle_of_linked_list(head).data)
+
