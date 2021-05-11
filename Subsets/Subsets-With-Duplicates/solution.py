@@ -1,4 +1,5 @@
 def find_non_duplicate_subsets(nums):
+    nums.sort()
     subsets = []
     subsets.append([])
     startIndex, endIndex = 0, 0
